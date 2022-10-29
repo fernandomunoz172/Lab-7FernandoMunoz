@@ -712,8 +712,8 @@ namespace MyApp // Note: actual namespace depends on the project name.
                 try
                 {
                     Clear();
-                    Console.ForegroundColor = ConsoleColor.Yellow;
-                    WriteLine("LENGTH CONVERTER");
+                    Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                    WriteLine("TIME CONVERTER");
                     Console.ForegroundColor = ConsoleColor.White;
                     WriteLine("1.- Seconds to Minutes");
                     WriteLine("2.- Seconds to Hours");
